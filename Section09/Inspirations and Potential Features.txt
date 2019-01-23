@@ -1,2 +1,3 @@
 So the link below is to a Vulnerability scanner written in python. Specifically its the payloads, 
 i want to implent vectors for Cross Site Scripting (with additional vectors), LFI (Local File Injection), HCI (HTML Injection)
+https://github.com/m4ll0k/WAScan/blob/master/lib/utils/payload.py
