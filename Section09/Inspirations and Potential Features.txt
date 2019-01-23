@@ -9,3 +9,8 @@ https://github.com/m4ll0k/WAScan/blob/master/plugins/attacks/headerxss.py
 https://github.com/m4ll0k/WAScan/blob/master/plugins/attacks/lfi.py
 #Open-Redirect
 https://github.com/m4ll0k/WAScan/blob/master/plugins/audit/open_redirect.py
+
+1H23Y19
+https://github.com/lotusirous/simple-web-scanner/blob/master/xss_scanner.py
+The above Git Repository is a simple Web App scanner that someone wrote in different files.
+im going to see what the code consists of (looking at the XSS Scanner, it imports a library called Scanner_Core)
