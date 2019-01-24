@@ -16,7 +16,7 @@ print("Select Program")
 x = input(">>>")
           
 if x == 1:
-  pass
+  psas
 if x == 2:
 print_lock = threading.Lock()
 os.system('cls')
