@@ -1,8 +1,14 @@
 import socket
 import threading
 import os
-from queue import Queue
+import mechanize
+import sys
+import httplib
+import argparse
+import logging
 import time
+from urlparse import urlparse
+from queue import Queue
 
 
 print('███████╗   ██╗    ██╗    █████╗ ████████╗\n')
@@ -73,3 +79,27 @@ for worker in range(1,100):
     q.put(worker)
     
 q.join()
+        
+        
+if x == 3:
+
+##XSS Scanner figure out how to have the command run
+ #def __init__(self):
+  #      ScannerCore.__init__(self)
+   #     self.SIGNATURE = 'XSS'
+    #    self.load_vectors('vxss.txt')
+
+    #def replacement_param(self, param_value, vector):
+        # __SIGNATURE__ is place holder in attack vectors
+        # replace with signatures
+     #   v = vector.replace('__SIGNATURE__', self.SIGNATURE)
+      #  return v
+
+    #def find_signature(self, html_content):
+        # return True if it finds signature in script content else False
+        # we have to parse HTML since script only works if HTML is correct syntax.
+     #   prse = HtmlParser(html_content)
+      #  if any(self.SIGNATURE in s for s in prse.script_text):
+       #     return True
+        #else:
+         #   return False
