@@ -5,18 +5,30 @@ from queue import Queue
 import time
 
 
-print('_____  _    _   ___  _____ \n')
-print('/  ___|| |  | | / _ \|_   _|\n')
-print('\ `--. | |  | |/ /_\ \ | |  \n')
-print('`--. \| |/\| ||  _  | | |  \n')
-print('/\__/ /\  /\  /| | | |_| |  \n')
-print('\____(_)\/  \(_)_| |_(_)_/  \n')
+print('███████╗   ██╗    ██╗    █████╗ ████████╗\n')
+print('██╔════╝   ██║    ██║   ██╔══██╗╚══██╔══╝\n')
+print('███████╗   ██║ █╗ ██║   ███████║   ██║   \n')
+print('╚════██║   ██║███╗██║   ██╔══██║   ██║   \n')
+print('███████║██╗╚███╔███╔╝██╗██║  ██║██╗██║   \n')
+print('╚══════╝╚═╝ ╚══╝╚══╝ ╚═╝╚═╝  ╚═╝╚═╝╚═╝   \n')
 print("Security.Web.Analysis.Tool\n\n[1]H2IP\n[2]PScan\n")
 print("Select Program")
-x = input(">>>")
+x = int(input(">>>"))
           
 if x == 1:
-  psas
+  os.system('cls')
+  print(" ____  ____   _____   _____  _______   \n")
+  print("|_   ||   _| / ___ `.|_   _||_   __ \  \n")
+  print("  | |__| |  |_/___) |  | |    | |__) | \n")
+  print("  |  __  |   .'____.'  | |    |  ___/  \n")
+  print(" _| |  | |_ / /_____  _| |_  _| |_     \n")
+  print("|____||____||_______||_____||_____|    \n")
+  print("Host 2 IP\nTake a sites URL and outputs its IP address\n\n")
+  print("Enter Host)
+  target = input(">>>")
+  ip = socket.gethostbyname(target)
+  print(ip)
+        
 if x == 2:
 print_lock = threading.Lock()
 os.system('cls')
