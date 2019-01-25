@@ -14,3 +14,5 @@ https://github.com/m4ll0k/WAScan/blob/master/plugins/audit/open_redirect.py
 https://github.com/lotusirous/simple-web-scanner/blob/master/xss_scanner.py
 The above Git Repository is a simple Web App scanner that someone wrote in different files.
 im going to see what the code consists of (looking at the XSS Scanner, it imports a library called Scanner_Core)
+
+#https://www.digitalocean.com/community/tutorials/how-to-scrape-web-pages-with-beautiful-soup-and-python-3
