@@ -34,6 +34,9 @@ if x == 1:
     #s.send(request.encode())
     #results = s.recv(1024)
     #print(results)
+else:
+ print("[!]Error[!]")
+ 
 if x == 2:
  print_lock = threading.Lock()
  os.system('cls')
@@ -47,7 +50,6 @@ if x == 2:
  print("Enter Target Site")
  target = input(">>>")
  ip = socket.gethostbyname(target)
-
  def portscan(port):
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     try:
@@ -57,7 +59,6 @@ if x == 2:
         con.close()
     except:
         pass
-
 
  def threader():
     while True:
@@ -78,3 +79,5 @@ if x == 2:
     q.put(worker)
 
  q.join()
+else:
+ print("[!]Error[!]")
