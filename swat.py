@@ -107,6 +107,8 @@ if x == '3':
  for artist_name in artist_name_list_items:
 	 names = artist_name.contents[0]
 	 print(names)
+else:
+  print("[!]Error has occured")
  if x == 'h':
   print("______  __    ______        ")
   print("___  / / /_______  /_______ ")
@@ -118,3 +120,5 @@ if x == '3':
   print("[1]/H21P - Gives the IP address for a specified URL\n")
   print("[2]/PScan - Scans for open ports on specified website/ip address")
   print("[3]/Scarab - Crawls a specified website and outputs items")
+ else:
+  print("[!]Error has occured")
