@@ -9,11 +9,11 @@ print("/\  ___\   /\ \  _ \ \   /\  __ \   /\__  _\ ")
 print('\ \___  \  \ \ \/ ".\ \  \ \  __ \  \/_/\ \/ ')
 print(' \/\_____\  \ \__/".~\_\  \ \_\ \_\    \ \_\ ')
 print("  \/_____/   \/_/   \/_/   \/_/\/_/     \/_/ ")
-print("Security. Web.Analysis. Tool\n\n[1]H2IP\n[2]PScan\n")
+print("Security. Web.Analysis. Tool\n\n[1]H2IP\n[2]PScan\n[3]Scarab\n[h]Help")
 print("Select Program")
 x = int(input(">>>"))
 
-if x == 1:
+if x == '1':
     os.system('cls')
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     print(" ____  ____   _____   _____  _______   ")
@@ -37,7 +37,7 @@ if x == 1:
 else:
  print("[!]Error[!]")
  
-if x == 2:
+if x == '2':
  print_lock = threading.Lock()
  os.system('cls')
  print('______  _____                 ')
@@ -81,14 +81,16 @@ if x == 2:
  q.join()
 else:
  print("[!]Error[!]")
-if x == 3:
+
+if x == '3':
  os.system('cls')
  print("   _____                       __  ")
  print("  / ___/_________ __________ _/ /_ ")
  print("  \__ \/ ___/ __ `/ ___/ __ `/ __ \")
  print(" ___/ / /__/ /_/ / /  / /_/ / /_/ /")
- print("/____/\___/\__,_/_/   \__,_/_.___/ \n")
- print("Enter Site To Scrape")
+ print("/____/\___/\__,_/_/   \__,_/_.___/ ")
+ print("Crawl The Web...catch your prey\n")
+ print("Enter Site To Crawl")
  xs = input(">>>")
 
  page = requests.get(xs)
@@ -105,3 +107,14 @@ if x == 3:
  for artist_name in artist_name_list_items:
 	 names = artist_name.contents[0]
 	 print(names)
+ if x == 'h':
+  print("______  __    ______        ")
+  print("___  / / /_______  /_______ ")
+  print("__  /_/ /_  _ \_  /___  __ \")
+  print("_  __  / /  __/  / __  /_/ /")
+  print("/_/ /_/  \___//_/  _  .___/ ")
+  print("                   /_/      \n\n")
+  print("[h] - Displays Help Menu\n")
+  print("[1]/H21P - Gives the IP address for a specified URL\n")
+  print("[2]/PScan - Scans for open ports on specified website/ip address")
+  print("[3]/Scarab - Crawls a specified website and outputs items")
