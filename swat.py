@@ -85,28 +85,29 @@ else:
  print("[!]Error[!]")
 
 if x == '3':
-    os.system('cls')
-    print("   _____                       __  ")
-    print("  / ___/_________ __________ _/ /_ ")
-    print("  \__ \/ ___/ __ `/ ___/ __ `/ __ \ ")
-    print(" ___/ / /__/ /_/ / /  / /_/ / /_/ /")
-    print("/____/\___/\__,_/_/   \__,_/_.___/ ")
-    print("Crawl The Web...catch your prey\n")
-    print("Enter Site To Crawl")
-    xs = input(">>>")
-    page = requests.get(xs)
-    soup = BeautifulSoup(page.text, 'html.parser')
+     pass
+#    os.system('cls')
+#    print("   _____                       __  ")
+#    print("  / ___/_________ __________ _/ /_ ")
+#    print("  \__ \/ ___/ __ `/ ___/ __ `/ __ \ ")
+#    print(" ___/ / /__/ /_/ / /  / /_/ / /_/ /")
+#    print("/____/\___/\__,_/_/   \__,_/_.___/ ")
+#    print("Crawl The Web...catch your prey\n")
+#    print("Enter Site To Crawl")
+#    xs = input(">>>")
+#    page = requests.get(xs)
+#    soup = BeautifulSoup(page.text, 'html.parser')
 
-    last_links = soup.find(class_='AlphaNav')
-    last_links.decompose()
-    artist_name_list = soup.find(class_='BodyText')
-    artist_name_list_items = artist_name_list.find_all('a')
+#    last_links = soup.find(class_='AlphaNav')
+#    last_links.decompose()
+#    artist_name_list = soup.find(class_='BodyText')
+#    artist_name_list_items = artist_name_list.find_all('a')
 
-    for artist_name in artist_name_list_items:
-     names = artist_name.contents[0]
-     print(names)
+#    for artist_name in artist_name_list_items:
+#     names = artist_name.contents[0]
+#     print(names)
 else:
- print("[!]Error has occured")
+# print("[!]Error has occured")
 
 if x == 'h':
     print("______  __    ______        ")
@@ -118,6 +119,6 @@ if x == 'h':
     print("[h] - Displays Help Menu\n")
     print("[1]/H21P - Gives the IP address for a specified URL\n")
     print("[2]/PScan - Scans for open ports on specified website/ip address")
-    print("[3]/Scarab - Crawls a specified website and outputs items")
+#    print("[3]/Scarab - Crawls a specified website and outputs items")
 else:
  print("[!]Error has occured")
