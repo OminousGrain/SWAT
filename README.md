@@ -3,5 +3,5 @@ S.W.A.T (Security &amp; Web Attack Tool) is a reconnaissance multi-tool for Secu
 # UPDATES #
 *Added Scarab to the program and help menu production is being produced*                                                                           
  01/28/19
-*The Scarab line will be temporarily put on halt*                        
+*The Scarab line will be temporarily put on halt*                                                                                                              
 *I am currently looking for help in developing this program if you are interested please reach me on my twitter which is linked on my profile*
