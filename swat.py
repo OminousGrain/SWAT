@@ -6,11 +6,13 @@ import time
 from bs4 import BeautifulSoup
 from queue import Queue
 
-print(" ______     __     __     ______     ______  ")
-print("/\  ___\   /\ \  _ \ \   /\  __ \   /\__  _\ ")
-print('\ \___  \  \ \ \/ ".\ \  \ \  __ \  \/_/\ \/ ')
-print(' \/\_____\  \ \__/".~\_\  \ \_\ \_\    \ \_\ ')
-print("  \/_____/   \/_/   \/_/   \/_/\/_/     \/_/ ")
+print(
+	"\n ______     __     __     ______     ______  \n"
+	"\n/\  ___\   /\ \  _ \ \   /\  __ \   /\__  _\ \n"
+	'\n\ \___  \  \ \ \/ ".\ \  \ \  __ \  \/_/\ \/ \n'
+	'\n \/\_____\  \ \__/".~\_\  \ \_\ \_\    \ \_\ \n'
+	"\n  \/_____/   \/_/   \/_/   \/_/\/_/     \/_/ \n"
+)
 print("Security. Web.Analysis. Tool\n\n[1]H2IP\n[2]PScan\n")
 print("Select Program")
 x = input(">>>")
@@ -18,12 +20,14 @@ x = input(">>>")
 if x == '1':
     os.system('cls')
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    print(" ____  ____   _____   _____  _______   ")
-    print("|_   ||   _| / ___ `.|_   _||_   __ \  ")
-    print("  | |__| |  |_/___) |  | |    | |__) | ")
-    print("  |  __  |   .'____.'  | |    |  ___/  ")
-    print(" _| |  | |_ / /_____  _| |_  _| |_     ")
-    print("|____||____||_______||_____||_____|    ")
+	print(
+	"\n ____  ____   _____   _____  _______   \n"
+	"\n|_   ||   _| / ___ `.|_   _||_   __ \  \n"
+	"\n  | |__| |  |_/___) |  | |    | |__) | \n"
+	"\n  |  __  |   .'____.'  | |    |  ___/  \n"
+	"\n _| |  | |_ / /_____  _| |_  _| |_     \n"
+	"\n|____||____||_______||_____||_____|    \n"
+	)
     print("Host 2 IP\nTake a sites URL and outputs its IP address\n\n")
     print("Enter Host")
     server = input(">>>")
@@ -42,12 +46,14 @@ else:
 if x == '2':
  print_lock = threading.Lock()
  os.system('cls')
- print('______  _____                 ')
- print('| ___ \/  ___|                ')
- print('| |_/ /\ `--.  _____  ___ __  ')
- print("|  __/  `--. \/ __\ \/ / '_ \ ")
- print('| |    /\__/ / (__ >  <| | | |')
- print('\_|    \____/ \___/_/\_\_| |_|')
+ print(
+	'\n______  _____                 \n'
+	'\n| ___ \/  ___|                \n'
+	'\n| |_/ /\ `--.  _____  ___ __  \n'
+	"\n|  __/  `--. \/ __\ \/ / '_ \ \n"
+	'\n| |    /\__/ / (__ >  <| | | |\n'
+	'\n\_|    \____/ \___/_/\_\_| |_|\n'
+ )
  print("PScan. Your average threaded socket port scanner.\n")
  print("Enter Target Site")
  target = input(">>>")
@@ -87,11 +93,13 @@ else:
 if x == '3':
      pass
 #    os.system('cls')
-#    print("   _____                       __  ")
-#    print("  / ___/_________ __________ _/ /_ ")
-#    print("  \__ \/ ___/ __ `/ ___/ __ `/ __ \ ")
-#    print(" ___/ / /__/ /_/ / /  / /_/ / /_/ /")
-#    print("/____/\___/\__,_/_/   \__,_/_.___/ ")
+#    print(
+#			"\n   _____                       __  \n"
+#			"\n  / ___/_________ __________ _/ /_ \n"
+#			"\n  \__ \/ ___/ __ `/ ___/ __ `/ __ \\n"
+#			"\n ___/ / /__/ /_/ / /  / /_/ / /_/ /\n"
+#			"\n/____/\___/\__,_/_/   \__,_/_.___/ \n"
+#		)
 #    print("Crawl The Web...catch your prey\n")
 #    print("Enter Site To Crawl")
 #    xs = input(">>>")
@@ -145,12 +153,14 @@ for i in range(1,11):
         
         
 if x == 'h':
-    print("______  __    ______        ")
-    print("___  / / /_______  /_______ ")
-    print("__  /_/ /_  _ \_  /___  __ \ ")
-    print("_  __  / /  __/  / __  /_/ /")
-    print("/_/ /_/  \___//_/  _  .___/ ")
-    print("                   /_/      \n\n")
+    print(
+		"\n______  __    ______        \n"
+		"\n___  / / /_______  /_______ \n"
+		"\n__  /_/ /_  _ \_  /___  __ \ \n"
+		"\n_  __  / /  __/  / __  /_/ /\n"
+		"\n/_/ /_/  \___//_/  _  .___/ \n"
+		"\n                   /_/      \n\n\n"
+	)
     print("[h] - Displays Help Menu\n")
     print("[1]/H21P - Gives the IP address for a specified URL\n")
     print("[2]/PScan - Scans for open ports on specified website/ip address")
